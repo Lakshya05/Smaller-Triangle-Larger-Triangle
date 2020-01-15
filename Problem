@@ -1,0 +1,19 @@
+You are given n triangles, specifically, their sides a , b and c. 
+Print them in the same style but sorted by their areas from the smallest one to the largest one. 
+It is guaranteed that all the areas are different.
+Print exactly n lines. On each line print  integers separated by single spaces, which are a, b and c of the corresponding triangle.
+
+Constarint
+1<n<100
+1<a,b,c<70
+a+b>c, b+c>a, c+a>b
+
+Sample Input
+3
+7 24 25
+5 12 13
+3 4 5
+Sample Output
+3 4 5
+5 12 13
+7 24 25
